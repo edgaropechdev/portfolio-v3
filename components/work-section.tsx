@@ -7,6 +7,13 @@ import { ExternalLink, Github } from "lucide-react"
 export function WorkSection() {
   const projects = [
     {
+      title: "Atlas Suite (Multi-Tenant ERP & CMS)",
+      description: "Personal product in active development: a multi-tenant ERP and CMS for freelancers and small businesses. Invoicing with per-series consecutive folios, immutable issued documents and PDF generation, a Markdown-driven public website per organization, and strict per-organization data isolation with owner/admin/member roles and private S3 storage.",
+      image: "/atlas-suite.png",
+      technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "NextAuth.js", "AWS S3", "Stripe"],
+      liveUrl: "https://app.edgaropech.dev",
+    },
+    {
       title: "AI-Powered Supply Chain SaaS (Vemio)",
       description: "Enterprise SaaS platform featuring generative AI copilots (built with LangChain and Generative UI), predictive demand forecasting, Revenue Growth Management models, and custom promotions. Note: Access to the production app is restricted, but the first-version mockup is publicly accessible.",
       image: "/vemio.png",
