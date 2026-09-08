@@ -6,10 +6,19 @@ import { Badge } from "@/components/ui/badge"
 export function ExperienceSection() {
   const experiences = [
     {
+      title: "Web Developer",
+      company: "Eleva Capital",
+      location: "Remote, México",
+      period: "Jul 2026 - Present",
+      description:
+        "Own the web platform of four real-estate brands (elevacap.com, soleblu.mx, villageblu.com.mx and campaign landings): performance, structured data, SEO and uptime. Led incident response on a compromised production VPS running a cryptominer — containment, cleanup and WAF hardening — plus the outage runbook now used as standing team procedure. Built a PHP REST bridge that exposes Elementor's internal layout tree for programmatic editing, with per-post permission checks, automatic state backup and cache purge, replacing a manual workflow that had no rollback path. Automated content and audit operations with ~40 Python scripts over the WordPress REST API: SEO and schema.org audits, bulk metadata remediation, 404 and canonical fixes, and media optimization. Shipped a marketing landing on Astro and Cloudflare Workers scoring 100/100 in all four Lighthouse categories.",
+      technologies: ["PHP", "WordPress", "Python", "Astro", "Cloudflare Workers", "schema.org", "Core Web Vitals"],
+    },
+    {
       title: "Front-End & AI Integration Engineer",
       company: "Exploration & Discovery Technologies (Vemio)",
       location: "Remote, México",
-      period: "2024 - Present",
+      period: "2024 - Jun 2026",
       description:
         "Partnered with Product Owners to design and architect Next.js web applications and mobile apps (React Native) from scratch. Collaborated with key stakeholders to align business requirements with clean, highly interactive user interfaces. Integrated AI agents with LangChain and Generative UI to build conversational copilot flows that guide users across data dashboards. Designed and implemented predictive analytics, AI-guided promotion modules, and interactive key performance indicators (KPI) charts for retail and supply chain analytics. Maintained code quality through documentation, custom coding standards, and rigorous code reviews.",
       technologies: ["Next.js", "TypeScript", "Supabase", "React Native", "Python", "LangChain", "Generative UI"],
@@ -20,7 +29,7 @@ export function ExperienceSection() {
       location: "Remote, México",
       period: "2024",
       description:
-        "Developed web dashboards for tracking metrics, incident reports, and real-time delivery logs utilized across Latin America. Diagnosed and resolved complex frontend bugs in React class and function components, while reviewing Elixir/Phoenix backend services. Migrated the legacy repository from Webpack to Vite, updating key dependencies and refactoring security and api client layers. Propositioned and delivered core web features, successfully rebranding the platform's user interface. Designed and deployed cloud-based MVPs leveraging AWS services (Cognito, IoT Core, S3, EC2, Lambda) and earned the AWS Certified Cloud Practitioner credential.",
+        "Developed web dashboards for tracking metrics, incident reports, and real-time delivery logs utilized across Latin America. Diagnosed and resolved complex frontend bugs in React class and function components, while reviewing Elixir/Phoenix backend services. Migrated the legacy repository from Webpack to Vite, updating key dependencies and refactoring security and api client layers. Propositioned and delivered core web features, successfully rebranding the platform's user interface. Designed and deployed cloud-based MVPs leveraging AWS services (Cognito, IoT Core, S3, EC2, Lambda) alongside the architecture team.",
       technologies: ["React", "Phoenix (Elixir)", "Vite", "Webpack", "AWS", "SQL Server"],
     },
     {
